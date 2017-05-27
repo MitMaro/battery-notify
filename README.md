@@ -20,7 +20,7 @@ Download the most recent version from the releases page or checkout directly usi
 Cron is used to check the battery level and I usually check the level every minute but this can be changed in the cron entry. To add an entry to cron using `crontab -e` and add the line below.
 
 ```
-*/1 * * * * /path/to/battery-notify.sh`
+*/1 * * * * /path/to/battery-notify.sh
 ````
 
 ## Configuration
@@ -28,7 +28,7 @@ Cron is used to check the battery level and I usually check the level every minu
 Almost all parts of the script can be set from the cron entry. For example to set the battery critical level you would modify the cron entry to match:
 
 ```
-*/1 * * * * CRITICAL_LEVEL=8 /path/to/battery-notify.sh`
+*/1 * * * * CRITICAL_LEVEL=8 /path/to/battery-notify.sh
 ````
 ### Available Configurations
 
